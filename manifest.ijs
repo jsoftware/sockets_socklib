@@ -1,6 +1,6 @@
 NB. manifest for socklib
 CAPTION=: 'Routines for multiple asynchronous sockets'
-VERSION=: '1.0.0'
+VERSION=: '1.0.1'
 PLATFORMS=: ''
 FILES=: 0 : 0
 dirmirror.ijs
