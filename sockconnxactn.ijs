@@ -68,7 +68,7 @@ else.
   NB. Here the transfer is synchronous.  Handle it directly
   if. 32 = 3!:0 port do. 'rc recvdata' =. 2 {. port
   elseif. 0 = rc =. 0 {:: 'r s' =. sdsocket_jsocket_ ($0) do.
-    if. 0 do.  NB.    if. 0 ~: > {. sdioctl_jsocket_ s,FIONBIO_jsocket_,1 do. rc =. 10038
+    if. 0 ~: > {. sdioctl_jsocket_ s,FIONBIO_jsocket_,1 do. rc =. 10038
     elseif.
     if. DEBUGSYNC do. smoutput 'Connect to ',addr,':',": port end.
     sdconnect_jsocket_ s;AF_INET_jsocket_;addr;port  NB. Start the connection
