@@ -1,6 +1,6 @@
 NB. manifest for socklib
 CAPTION=: 'Routines for multiple asynchronous sockets'
-VERSION=: '1.0.4'
+VERSION=: '1.0.5'
 PLATFORMS=: ''
 FILES=: 0 : 0
 dirmirror.ijs
@@ -11,7 +11,7 @@ sockfileserver.ijs
 socklistener.ijs
 sockmux.ijs
 )
-RELEASE=: 'j602 j803 j804'
+RELEASE=: 'j602 j803 j804 j805'
 DEPENDS=: 0 : 0
 misc/miscutils
 format/printf
