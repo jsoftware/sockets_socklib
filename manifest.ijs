@@ -1,7 +1,7 @@
 NB. manifest for socklib
 CAPTION=: 'Routines for multiple asynchronous sockets'
-VERSION=: '1.0.7'
-PLATFORMS=: ''
+VERSION=: '1.0.8'
+PLATFORMS=: 'win'
 FILES=: 0 : 0
 dirmirror.ijs
 loadmeter.ijs
@@ -11,7 +11,7 @@ sockfileserver.ijs
 socklistener.ijs
 sockmux.ijs
 )
-RELEASE=: ''
+RELEASE=: 'j602 j807'
 
 FOLDER=: 'sockets/socklib'
 
